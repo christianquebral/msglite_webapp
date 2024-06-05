@@ -1,7 +1,7 @@
 body {background-color: black;} 
 textarea {
   width: 100%;
-  height: 100px;
+  height: 20px;
   resize: vertical;
   background-color: black;
   color: white;
@@ -13,7 +13,7 @@ textarea {
   bottom: 0;
   position:absolute;
   width: 100%;
-  height: 100px;
+  height: 20px;
   resize: vertical;
   border: none;
   outline: none;
