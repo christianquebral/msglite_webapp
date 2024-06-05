@@ -1,7 +1,7 @@
 function Input() {
 	return (
-	    <form action="" method="post">
-	      <span contenteditable="true">
+	    <form class="input" action="" method="post">
+	      <span contenteditable>
 	        <textarea type="text" name="user_input" required></textarea>
 	      </span>
 	    </form>
