@@ -1,12 +1,24 @@
-html { font-family: Ubuntu; }
 body {background-color: black;} 
 textarea {
   width: 100%;
-  height: 20px;
+  height: 25px;
   resize: vertical;
   background-color: black;
   color: white;
+  font-size: 20px;
+  font-family: 'ubuntu mono', monospace;
+}
+.input {
+  font-family: 'ubuntu mono', monospace;
+  bottom: 0;
+  position:absolute;
+  width: 100%;
+  height: 25px;
+  resize: vertical;
 }
 .message {
+  font-family: 'ubuntu mono', monospace;
   color: white;
+  line-height: 25px;
+  font-size: 20px;
 }
