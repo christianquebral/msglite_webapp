@@ -1,5 +1,12 @@
 html { font-family: Ubuntu; }
 body {background-color: black;} 
+textarea {
+  width: 100%;
+  height: 20px;
+  resize: vertical;
+  background-color: black;
+  color: white;
+}
 .message {
   color: white;
 }

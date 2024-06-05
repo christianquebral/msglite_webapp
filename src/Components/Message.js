@@ -1,6 +1,6 @@
 function Message() {
 	return (
-		<p>Meow</p>
+		<p>Message</p>
 	);
 }
 
