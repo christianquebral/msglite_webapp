@@ -1,6 +1,7 @@
 body {background-color: black;} 
 .input {
   font-family: 'ubuntu mono', monospace;
+  font-size: 20px;
   color: white;
   background-color: black;
   bottom: 0;
