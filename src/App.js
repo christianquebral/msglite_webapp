@@ -1,9 +1,10 @@
 import './App.css';
+import Console from './Components/Console.js'
 
 function App() {
   return (
     <>
-      <p class="message">Hello</p>
+      <Console />
     </>
   )
 }
