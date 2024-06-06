@@ -1,8 +1,5 @@
 import { useRef, useEffect } from 'react';
 
-var input = document.getElementById("input");
-var data;
-
 function Input({inputToConsole}) {
   const inputRef = useRef(null);
 
