@@ -3,8 +3,7 @@ services:
     container_name: msglite_webapp
     build: .
     volumes:
-      - './:/src'
-      - '/src/node_modules'
+      - ./:/msglite_webapp
     ports:
       - 3000:3000
     command: npm start
