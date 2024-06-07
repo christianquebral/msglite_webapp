@@ -1,4 +1,4 @@
-import Input from './Input.js'
+import Input from './Input.jsx'
 import { useState } from 'react';
 
 function Console() {

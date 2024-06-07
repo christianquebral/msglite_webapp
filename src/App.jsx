@@ -1,5 +1,5 @@
 import './App.css';
-import Console from './Components/Console.js'
+import Console from './Components/Console.jsx'
 
 function App() {
   return (
