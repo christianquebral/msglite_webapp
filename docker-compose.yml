@@ -1,0 +1,10 @@
+services:
+  frontend:
+    container_name: msglite_webapp
+    build: .
+    volumes:
+      - './:/src'
+      - '/src/node_modules'
+    ports:
+      - 3000:3000
+    command: npm start
