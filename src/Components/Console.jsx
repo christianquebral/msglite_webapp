@@ -1,5 +1,5 @@
 import Input from './Input.jsx'
-import { useState } from 'react';
+import { useState } from 'react'
 
 function Console() {
   // initialize the main message queue
@@ -52,6 +52,10 @@ function Console() {
     else {
       pushMessage("Improperly formatted command! Please see examples above");
     }
+  }
+
+  const createSession = (inputData) => {
+
   }
 
   return (
